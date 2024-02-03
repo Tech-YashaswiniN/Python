@@ -42,7 +42,7 @@ while True:
             print("You loose!")
 
         if computer == "paper":
-            print("Player: ", player)
+            print("Playhher: ", player)
             print("Computer: ", computer)
             print("You won!")
 
