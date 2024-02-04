@@ -46,7 +46,7 @@ while True:
             print("Computer: ", computer)
             print("You won!")
 
-    play_again = input("Play again? (yes/no): ").lower()
+    play_again = input("Play again? (yes/no) : ").lower()
 
     if play_again != "yes":
         break
