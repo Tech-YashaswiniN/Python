@@ -58,6 +58,8 @@ def play_again():
         return False
 
 
+# --------------------------------------
+
 questions = {
     "Who created Python?: ": "A",
     "What year was Python created?: ": "B",
