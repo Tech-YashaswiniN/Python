@@ -23,5 +23,5 @@ while True:
         print("Your guess is too small, Take a larger guess.")
         print("--------------------------------------------------------------------------------------")
     
-print("------GAME OVER------")
+print("---------GAME OVER---------")
     
