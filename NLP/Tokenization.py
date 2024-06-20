@@ -1,9 +1,15 @@
 import nltk
-from nltk.corpus import udhr
 
-udhr = nltk.corpus.udhr.words('English-Latin1')
-udhr = udhr[:30]
-print(udhr)
-print("-----------------------------------------------------------------------------------------------------------------------------------------------")
-sentneces = nltk.sent_tokenize(" ".join(udhr))
-print(sentneces)
+# TOkenization
+
+# nltk.download('punkt')
+
+text1 = "Hello it's me yashaswini. How are you all."
+print(text1)
+
+# Splitting the text into words
+print(nltk.word_tokenize(text1))
+
+# Splitting the text into sentences
+text2="Python is a programming language. Pyhton is a open source. Pyhton is free"
+print(nltk.sent_tokenize(text2))
